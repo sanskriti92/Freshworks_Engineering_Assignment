@@ -11,7 +11,7 @@ The data store will support the following functional requirements.
 7. Appropriate error responses must always be returned to a client if it uses the data store in unexpected ways or breaches any limits.
 
 The data store will also support the following non-functional requirements.
-1.The size of the file storing data must never exceed 1 GB
+1.The size of the file storing data must never exceed 1 GB.
 2.More than one client process cannot be allowed to use the same file as a data store at anygiven time. 
-3. A client process is allowed to access the data store using multiple threads, if it desires to The data store must therefore be the sale
+3. A client process is allowed to access the data store using multiple threads, if it desires to The data store must therefore be the sale.
 4. The client will bear as little memory costs as possible to use this data store, while deriving maximum performance with respect to response times for accessing the data store.
